@@ -1,4 +1,5 @@
-# LMS / Meshmerize — Curated Learning Resources
+> note:- you just need to compete tasks and [Meshmerize_PS.pdf](https://github.com/the-robotronics-club/Project-X-Selection-Tasks/blob/dad5236d8f27beb7fc49fb64453f889b1e6ad99e/Line-Maze-Solver/Meshmerize_PS.pdf) is just to give you an idea of what competition actually is. 
+# LMS Learning Resources
 
 This guide provides technical references, high-rated video tutorials, application notes, and code repositories mapped directly to the tasks in [LMS_Meshmerize_Fresher_Selection_Plan.md](file:///c:/Users/karti/OneDrive/Desktop/PROJECTS/ProjectX/LMS_Meshmerize_Fresher_Selection_Plan.md).
 
