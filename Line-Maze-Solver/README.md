@@ -174,5 +174,3 @@
   *Why study this:* Explains how formatting serial output with commas automatically renders live, multi-channel line graphs on a PC.
 
 ---
-ts rather than idle currents? Does your battery C-rating comfortably exceed worst-case motor stall current? |
-| **Track 4: Algorithms & Comms** | Can you trace how your code reduces `L-B-L` into `S`? What signal signature proves a sensor fault versus a valid line turn? |
