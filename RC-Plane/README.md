@@ -24,7 +24,7 @@ Prepare a complete BOM for a functional electric single-motor fixed-wing RC airc
 
 1. Fork this repository.
 2. Create separate folders for each problem statement in your fork.
-3. Submit the link to your repository in the Google Form: https://forms.gle/SGCcG6f3UPwZdqtx5
+3. Submit the link to your repository, once the submission forms are opened.
 
 ## Video Thumbnails
 
