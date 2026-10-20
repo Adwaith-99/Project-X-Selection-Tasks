@@ -174,14 +174,5 @@
   *Why study this:* Explains how formatting serial output with commas automatically renders live, multi-channel line graphs on a PC.
 
 ---
-
-## Quick Reference: Preparation Checklist
-
-Before submitting your repository, verify that you can explain each of these points:
-
-| Track | Key Preparation Check |
-| :--- | :--- |
-| **Track 1: Control & Firmware** | Does your code explicitly prevent division-by-zero when all sensors read zero? Can you walk through how your PID error scales into motor PWM? |
-| **Track 2: Hardware & Circuits** | Can you cite the continuous current rating of your driver? Why are logic and battery grounds connected together? How do you prevent brownout resets? |
-| **Track 3: Power & Batteries** | Did you compute runtime using realistic average currents rather than idle currents? Does your battery C-rating comfortably exceed worst-case motor stall current? |
+ts rather than idle currents? Does your battery C-rating comfortably exceed worst-case motor stall current? |
 | **Track 4: Algorithms & Comms** | Can you trace how your code reduces `L-B-L` into `S`? What signal signature proves a sensor fault versus a valid line turn? |
