@@ -115,17 +115,30 @@ Available online aerodynamic estimates for E423 are model-based and should not b
 
 Assessment: A relevant high-camber candidate, but its suitability must be established through a matched-condition comparison.
 
-3.5 Comparison of Aircraft A candidates (with computational estimates added)
-Criterion	NACA 4412	Clark Y	Eppler E423
-Maximum camber	4%	~3.4%	~10%
-Maximum thickness	12%	~11.7%	~12.5%
-General geometry	Moderately cambered	Cambered, relatively flat lower surface	Highly cambered
-Lift at zero geometric angle	Positive lift generally expected	Positive lift generally expected	Positive lift generally expected
-Maximum lift coefficient at Re ≈ 203,000	1.49 (computational estimate)	1.38 (computational estimate)	~1.60 (computational estimate; numerical study)
-Drag at a common lift coefficient (C_L ≈ 1.0)	C_D ≈ 0.0126 (computational estimate)	C_D ≈ 0.0136 (computational estimate)	C_D ≈ 0.0145 (computational estimate)
-Lift-to-drag ratio at a common condition	L/D ≈ 79 at C_L ≈ 1.0 (computational estimate)	L/D ≈ 73 at C_L ≈ 0.94 (computational estimate)	L/D ≈ 73.7 max at α ≈ 9.25° (computational estimate)
-Stall behaviour at the assumed condition	Gradual stall; requires matched experimental data for full validation	Earlier stall than 4412; experimental data exists at 50k–200k Re but not extracted	High-camber stall; sharper drop expected; requires matched data
-Preliminary suitability	Balanced baseline candidate — supported by highest estimated C_L,max and L/D at design Re	Practical alternative — lower estimated C_L,max and L/D than 4412 at design Re	High-camber alternative — highest estimated C_L,max but lower L/D and sharper stall risk
+### 3.5 Comparison of Aircraft A candidates
+
+**1. NACA 4412**
+* **Geometry:** 4% camber, 12% thickness, moderately cambered.
+* **Lift at 0° AoA:** Positive lift expected.
+* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.49** | Drag at C_L 1.0 ≈ **0.0126** | Best L/D ≈ **79**.
+* **Stall:** Gradual stall characteristics.
+* **Suitability:** **Balanced baseline candidate**. It is supported by the highest estimated C_L,max and best L/D at the design Reynolds number.
+
+**2. Clark Y**
+* **Geometry:** ~3.4% camber, ~11.7% thickness, relatively flat lower surface.
+* **Lift at 0° AoA:** Positive lift expected.
+* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.38** | Drag at C_L 1.0 ≈ **0.0136** | Best L/D ≈ **73**.
+* **Stall:** Earlier stall than 4412.
+* **Suitability:** **Practical alternative**. Lower estimated C_L,max and L/D than the 4412, but good for low-Re construction.
+
+**3. Eppler E423**
+* **Geometry:** ~10% camber, ~12.5% thickness, highly cambered.
+* **Lift at 0° AoA:** Positive lift expected.
+* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.60** | Drag at C_L 1.0 ≈ **0.0145** | Max L/D ≈ **73.7**.
+* **Stall:** Sharper drop expected due to high camber.
+* **Suitability:** **High-camber alternative**. Highest estimated C_L,max, but lower L/D and higher stall risk.
+
+**Important Note:** The numerical performance values above are **computational estimates** (NeuralFoil/XFOIL) and are **not** experimental wind-tunnel data. They are included for relative comparison only.
 
 3.6 Preliminary selection for Aircraft A: NACA 4412
 NACA 4412 is selected provisionally because it provides a moderate-camber, moderate-thickness baseline with published aerodynamic references.
