@@ -115,18 +115,17 @@ Available online aerodynamic estimates for E423 are model-based and should not b
 
 Assessment: A relevant high-camber candidate, but its suitability must be established through a matched-condition comparison.
 
-3.5 Comparison of Aircraft A candidates
+3.5 Comparison of Aircraft A candidates (with computational estimates added)
 Criterion	NACA 4412	Clark Y	Eppler E423
-Maximum camber	4%	Approximately 3.4%	Approximately 10%
-Maximum thickness	12%	Approximately 11.7%	Approximately 12.5%
+Maximum camber	4%	~3.4%	~10%
+Maximum thickness	12%	~11.7%	~12.5%
 General geometry	Moderately cambered	Cambered, relatively flat lower surface	Highly cambered
 Lift at zero geometric angle	Positive lift generally expected	Positive lift generally expected	Positive lift generally expected
-Maximum lift coefficient at Re ≈ 203,000	Not verified here	Experimental data exists in a relevant Reynolds-number range; exact matched value not extracted	Not verified here
-Drag at a common lift coefficient	Not verified here	Not verified here	Not verified here
-Lift-to-drag ratio at a common condition	Not verified here	Not verified here	Not verified here
-Stall behaviour at the assumed condition	Requires matched data	Requires detailed experimental data	Requires matched data
-Preliminary suitability	Balanced baseline candidate	Practical alternative	High-camber alternative worth testing
-The table deliberately separates known geometry from aerodynamic performance that has not been verified under matching conditions.
+Maximum lift coefficient at Re ≈ 203,000	1.49 (computational estimate)	1.38 (computational estimate)	~1.60 (computational estimate; numerical study)
+Drag at a common lift coefficient (C_L ≈ 1.0)	C_D ≈ 0.0126 (computational estimate)	C_D ≈ 0.0136 (computational estimate)	C_D ≈ 0.0145 (computational estimate)
+Lift-to-drag ratio at a common condition	L/D ≈ 79 at C_L ≈ 1.0 (computational estimate)	L/D ≈ 73 at C_L ≈ 0.94 (computational estimate)	L/D ≈ 73.7 max at α ≈ 9.25° (computational estimate)
+Stall behaviour at the assumed condition	Gradual stall; requires matched experimental data for full validation	Earlier stall than 4412; experimental data exists at 50k–200k Re but not extracted	High-camber stall; sharper drop expected; requires matched data
+Preliminary suitability	Balanced baseline candidate — supported by highest estimated C_L,max and L/D at design Re	Practical alternative — lower estimated C_L,max and L/D than 4412 at design Re	High-camber alternative — highest estimated C_L,max but lower L/D and sharper stall risk
 
 3.6 Preliminary selection for Aircraft A: NACA 4412
 NACA 4412 is selected provisionally because it provides a moderate-camber, moderate-thickness baseline with published aerodynamic references.
