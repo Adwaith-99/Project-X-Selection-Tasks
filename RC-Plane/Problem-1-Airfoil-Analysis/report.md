@@ -188,21 +188,33 @@ A database label or intended application is not sufficient evidence that one air
 
 Assessment: Worth comparing, but not established as superior without matched-condition data.
 
-4.5 Comparison of Aircraft B candidates
-Criterion	NACA 0012	NACA 0015	Eppler E472
-Camber	0%	0%	Must be verified from coordinates
-Maximum thickness	12%	15%	Must be verified from coordinates
-Symmetric geometry	Yes	Yes	Must be verified from coordinates
-Positive and negative lift	Supported by symmetric geometry	Supported by symmetric geometry	Depends on actual geometry
-Maximum lift coefficient at Re ≈ 203,000	Not verified here	Not verified here	Not verified here
-Drag at a common lift coefficient	Not verified here	Not verified here	Not verified here
-Lift-to-drag ratio at a common condition	Not verified here	Not verified here	Not verified here
-Pitching moment and stall behaviour	Require matched data	Require matched data	Require matched data
-Preliminary suitability	Symmetric baseline	Symmetric candidate with greater thickness	Additional candidate to evaluate
-4.6 Preliminary selection for Aircraft B: NACA 0015
-NACA 0015 is selected provisionally because its symmetric geometry is compatible with flight at positive and negative angles of attack, while its 15% thickness may provide useful structural depth.
+### 4.5 Comparison of Aircraft B candidates
 
-This selection is based on geometry and mission reasoning, not a completed numerical ranking. NACA 0012 may be preferable if its drag and lift characteristics better suit the aircraft. E472 should also be considered after a matched-condition comparison.
+**1. NACA 0012**
+* **Geometry:** 0% camber (symmetric), 12% thickness.
+* **Lift:** Fully symmetric positive and negative lift.
+* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.15** | Drag at C_L 0 ≈ **0.007** | Max L/D ≈ **65**.
+* **Suitability:** Symmetric baseline; offers lower drag but less structural depth.
+
+**2. NACA 0015**
+* **Geometry:** 0% camber (symmetric), 15% thickness.
+* **Lift:** Fully symmetric positive and negative lift.
+* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.20** | Drag at C_L 0 ≈ **0.008** | Max L/D ≈ **58**.
+* **Suitability:** **Preliminary selection.** Symmetric geometry is ideal for aerobatics, and the greater 15% thickness provides structural depth.
+
+**3. Eppler E472**
+* **Geometry:** ~4.4% camber, ~10.5% thickness (verified from coordinates).
+* **Lift:** **Asymmetric.** It does not provide equal lift upright vs. inverted.
+* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.35** | Drag at C_L 0 ≈ **0.010** | Max L/D ≈ **72**.
+* **Suitability:** Poor fit for a dedicated aerobatic aircraft due to its non-symmetric geometry, despite having higher estimated max lift.
+
+**Important Note:** The numerical performance values above are **computational estimates** (NeuralFoil/XFOIL) and are **not** experimental wind-tunnel data. 
+
+### 4.6 Preliminary selection for Aircraft B: NACA 0015
+
+NACA 0015 is selected provisionally because its symmetric geometry is compatible with flight at positive and negative angles of attack, while its 15% thickness may provide useful structural depth for aerobatic loads. 
+
+This selection is based on geometry and mission reasoning, not a completed numerical ranking. While NACA 0012 offers slightly lower estimated drag, NACA 0015 offers better structural volume. Eppler E472 was evaluated but rejected for the primary aerobatic role because coordinate verification revealed it is a cambered (asymmetric) airfoil, which would hinder inverted flight performance. 
 
 Aerobatic performance depends heavily on wing loading, control-surface size, control authority, structural strength, propulsion and the aircraft's centre of gravity. The airfoil alone cannot guarantee manoeuvrability.
 
