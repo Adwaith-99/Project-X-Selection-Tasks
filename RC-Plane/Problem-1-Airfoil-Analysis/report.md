@@ -189,28 +189,60 @@ A database label or intended application is not sufficient evidence that one air
 Assessment: Worth comparing, but not established as superior without matched-condition data.
 
 ### 4.5 Comparison of Aircraft B candidates
+The following candidates were evaluated at the assumed design condition (Re ≈ 203,000):
 
-**1. NACA 0012**
-* **Geometry:** 0% camber (symmetric), 12% thickness.
-* **Lift:** Fully symmetric positive and negative lift.
-* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.15** | Drag at C_L 0 ≈ **0.007** | Max L/D ≈ **65**.
-* **Suitability:** Symmetric baseline; offers lower drag but less structural depth.
+1. NACA 0012
 
-**2. NACA 0015**
-* **Geometry:** 0% camber (symmetric), 15% thickness.
-* **Lift:** Fully symmetric positive and negative lift.
-* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.20** | Drag at C_L 0 ≈ **0.008** | Max L/D ≈ **58**.
-* **Suitability:** **Preliminary selection.** Symmetric geometry is ideal for aerobatics, and the greater 15% thickness provides structural depth.
+Geometry: 0% camber (symmetric), 12% thickness.
 
-**3. Eppler E472**
-* **Geometry:** ~4.4% camber, ~10.5% thickness (verified from coordinates).
-* **Lift:** **Asymmetric.** It does not provide equal lift upright vs. inverted.
-* **Performance Estimates (Re ≈ 203,000):** C_L,max ≈ **1.35** | Drag at C_L 0 ≈ **0.010** | Max L/D ≈ **72**.
-* **Suitability:** Poor fit for a dedicated aerobatic aircraft due to its non-symmetric geometry, despite having higher estimated max lift.
+Lift: Fully symmetric positive and negative lift.
 
-**Important Note:** The numerical performance values above are **computational estimates** (NeuralFoil/XFOIL) and are **not** experimental wind-tunnel data. 
+Performance Estimates: C_L,max ≈ 1.15 | Drag at C_L 0 ≈ 0.007 | Max L/D ≈ 65.
 
-### 4.6 Preliminary selection for Aircraft B: NACA 0015
+Suitability: Symmetric baseline; offers lower drag but less structural depth.
+
+2. NACA 0015
+
+Geometry: 0% camber (symmetric), 15% thickness.
+
+Lift: Fully symmetric positive and negative lift.
+
+Performance Estimates: C_L,max ≈ 1.20 | Drag at C_L 0 ≈ 0.008 | Max L/D ≈ 58.
+
+Suitability: Preliminary selection. Symmetric geometry is ideal for aerobatics, and the greater 15% thickness provides structural depth.
+
+3. Eppler E472
+
+Geometry: ~4.4% camber, ~10.5% thickness (verified from coordinates).
+
+Lift: Asymmetric. It does not provide equal lift upright vs. inverted.
+
+Performance Estimates: C_L,max ≈ 1.35 | Drag at C_L 0 ≈ 0.010 | Max L/D ≈ 72.
+
+Suitability: Poor fit for a dedicated aerobatic aircraft due to its non-symmetric geometry, despite having higher estimated max lift.
+
+Note on the numerical values: The performance values above are computational estimates (NeuralFoil/XFOIL) at Re ≈ 200,000. They are not experimental wind-tunnel data and should be treated as relative comparisons, not validated facts.
+
+### 4.6 Preliminary Selection for Aircraft B: NACA 0015
+
+Step 1: Eliminating the Eppler E472
+On paper, the E472 looks like the best wing, possessing the highest estimated C_L,max (1.35) and highest L/D (72). However, geometry verification revealed it has ~4.4% camber (it is not symmetric). If flown inverted, this wing would generate asymmetric lift, making aerobatic flight extremely difficult to control. Verdict: Rejected. High aerodynamic numbers cannot compensate for the wrong geometry.
+
+Step 2: Head-to-Head (NACA 0012 vs. NACA 0015)
+Between the two symmetric airfoils, NACA 0012 has slightly better aerodynamic efficiency: it has lower drag at 0° AoA (0.007 vs 0.008) and a higher max L/D (65 vs 58). If the goal were to build a glider, the 0012 would win.
+
+Step 3: The Final Decision (Why the 0015 Wins)
+NACA 0015 is selected provisionally for the following engineering trade-offs:
+
+Structural Integrity is Non-Negotiable: Aerobatic aircraft experience massive G-forces during pull-outs and tight loops. The 15% thickness of the NACA 0015 allows for a much deeper, stronger main wing spar. The NACA 0012 is too thin; making it strong enough would require heavy external bracing or exotic materials.
+
+Stall Margin: The 0015 has a slightly higher C_L,max (1.20 vs 1.15). Because aerobatics are flown constantly near the stall, this higher margin provides better control authority at low speeds.
+
+Acceptable Drag Penalty: The 0015 does have slightly more drag and a lower L/D, but for an aerobatic plane, gliding efficiency is secondary to structural strength and thrust-to-weight ratio. The trade-off is highly favourable.
+
+Aerobatic performance depends heavily on wing loading, control-surface size, control authority, structural strength, propulsion and the aircraft's centre of gravity. The airfoil alone cannot guarantee manoeuvrability, but the NACA 0015 provides the strongest foundation for these requirements.
+
+### 4.7 Preliminary selection for Aircraft B: NACA 0015
 
 NACA 0015 is selected provisionally because its symmetric geometry is compatible with flight at positive and negative angles of attack, while its 15% thickness may provide useful structural depth for aerobatic loads. 
 
