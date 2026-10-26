@@ -1,87 +1,109 @@
-Problem 2 — The Paper Plane Challenge
-Project X 3.0 — Robotronics Club Selection Task
+# Problem 2 — The Paper Plane Challenge
+**Project X 3.0 — Robotronics Club Selection Task**
 
-1. Introduction
-The objective of this challenge is to design a paper airplane from a single A4 sheet that maximises airborne duration rather than distance. This report documents the construction, aerodynamic analysis, and flight testing of an original design — The Lock-Fold Glider. All flight times presented were collected under indoor, still-air conditions. 
+## 1. Introduction
+The objective of this challenge is to design a paper airplane from a single A4 sheet that maximises airborne duration rather than distance. This report documents the construction, aerodynamic analysis, and flight testing of an original design — The Lock-Fold Glider. All flight times presented were collected under indoor, still-air conditions.
 
-2. Construction Design
-Design used: The Lock-Fold Glider (Original Design)
+## 2. Construction Design
+**Design used:** The Lock-Fold Glider (Original Design)
 
-Fold Steps:
-Step 1: Start with a standard A4 sheet in portrait orientation. Fold the top-left and top-right corners to meet exactly at the vertical center line, forming a triangle at the top.
-Step 2: Fold this top triangle downwards, creasing along its base, so the paper looks like a rectangle again.
-Step 3: Fold the top-left and top-right corners down to the center line once more. Crucial adjustment: Leave a small gap of about 1–1.5 cm at the top center; the edges should not meet this time.
-Step 4: Take the small triangle from Step 2 and fold it back up and over the newly folded corners. This "locks" the layers together and creates a reinforced, dense nose.
-Step 5: Fold the entire plane in half along the vertical center line (mountain fold), keeping the folded layers on the outside.
-Step 6: Fold the wings down on both sides. Align the trailing edge of the wings with the bottom edge of the fuselage to complete the glider. Ensure both wings are symmetrical.
+### Fold Steps:
+1. **Step 1:** Start with a standard A4 sheet in portrait orientation. Fold the top-left and top-right corners to meet exactly at the vertical center line, forming a triangle at the top.
+2. **Step 2:** Fold this top triangle downwards, creasing along its base, so the paper looks like a rectangle again.
+3. **Step 3:** Fold the top-left and top-right corners down to the center line once more. *Crucial adjustment:* Leave a small gap of about 1–1.5 cm at the top center; the edges should not meet this time.
+4. **Step 4:** Take the small triangle from Step 2 and fold it back up and over the newly folded corners. This "locks" the layers together and creates a reinforced, dense nose.
+5. **Step 5:** Fold the entire plane in half along the vertical center line (mountain fold), keeping the folded layers on the outside.
+6. **Step 6:** Fold the wings down on both sides. Align the trailing edge of the wings with the bottom edge of the fuselage to complete the glider. Ensure both wings are symmetrical.
 
-Design Rationale:
-- Wing Shape: The straight wings provide a large lifting surface.
-- Locked Nose (Step 4): The locking mechanism holds the layers tight, preventing the nose from crumpling on launch and shifting the center of gravity (CG) forward.
-- Thick Fuselage: The multiple layers of paper along the center line create a heavy, rigid fuselage, acting as a natural keel for stability. 
+### Design Rationale:
+* **Wing Shape:** The straight wings provide a large lifting surface.
+* **Locked Nose (Step 4):** The locking mechanism holds the layers tight, preventing the nose from crumpling on launch and shifting the center of gravity (CG) forward.
+* **Thick Fuselage:** The multiple layers of paper along the center line create a heavy, rigid fuselage, acting as a natural keel for stability.
 
-3. Measured Dimensions and Aerodynamic Analysis
-Assumptions: Air density (rho) = 1.225 kg/m3; Lift coefficient (C_L) = 0.08; Drag coefficient (C_D) = 0.02. 
+## 3. Measured Dimensions and Aerodynamic Analysis
+**Assumptions:** Air density (rho) = 1.225 kg/m³; Lift coefficient (C_L) = 0.08; Drag coefficient (C_D) = 0.02.
 
-Parameter               | Value / Calculation
-Mass                    | ~5 g (0.005 kg)
-Wingspan (tip to tip)   | 21.4 cm
-Wing chord at root      | 6.0 cm (estimated based on photos)
-Wing area (approx.)     | 128.4 cm2 (0.01284 m2)
-Fuselage length         | 19.5 cm
-Centre of gravity (CG)  | 7.8 cm from nose
-Wing loading            | 0.389 kg/m2 (0.005 / 0.01284)
+| Parameter | Value / Calculation |
+| :--- | :--- |
+| Mass | ~5 g (0.005 kg) |
+| Wingspan (tip to tip) | 21.4 cm |
+| Wing chord at root | 6.0 cm (estimated based on photos) |
+| Wing area (approx.) | 128.4 cm² (0.01284 m²) |
+| Fuselage length | 19.5 cm |
+| Centre of gravity (CG) | 7.8 cm from nose |
+| Wing loading | 0.389 kg/m² (0.005 / 0.01284) |
 
-How the Airplane Generates Lift:
+**How the Airplane Generates Lift:** 
 Lift is generated by the wing's angle of attack and the curved upper surface of the folded paper. As the plane moves forward, air is deflected downward, creating an equal and opposite upward force (Newton’s Third Law). Bernoulli's principle also contributes as air moves faster over the top of the wing. During the launch, the hand provides the initial thrust. Once released, there is no sustained propulsion. During the glide, the plane trades its potential energy (height) to overcome drag, resulting in a gentle descent.
 
-Minimum Sink Rate vs. Maximum Glide Distance:
+**Minimum Sink Rate vs. Maximum Glide Distance:** 
 This design is optimized for minimum sink rate rather than maximum glide distance. Because of its large wing area and relatively low wing loading, it can generate lift at slower speeds. It floats gently downwards, maximizing time aloft, whereas a classic dart is optimized for speed and distance but loses altitude quickly.
 
-4. Stability and Centre of Gravity
+## 4. Stability and Centre of Gravity
 The CG was measured at 7.8 cm from the nose, which is approximately 40% of the fuselage length. The ideal CG for a paper plane is roughly 33%. Because the CG is slightly further back (aft) than the ideal, the plane is very responsive but requires a gentle launch to prevent stalling. 
-Observed behaviour: The heavy locked nose kept the plane from diving, resulting in a stable, nose-forward glide with occasional slight pitch-ups on harder throws.
+*Observed behaviour:* The heavy locked nose kept the plane from diving, resulting in a stable, nose-forward glide with occasional slight pitch-ups on harder throws.
 
-5. Flight Trials — Baseline Design
+## 5. Flight Trials — Baseline Design
 All trials were conducted indoors in still air. Launch procedure: held at the center of the fuselage behind the CG, released at shoulder height with a level push at 5–10 degrees upward.
 
-Trial | Flight Time (s) | Observations
-1     | 2.8             | Smooth glide, slight left bank
-2     | 3.2             | Straight and stable, good lift
-3     | 2.5             | Nosed up slightly, stalled and recovered
-4     | 3.5             | Great lift, longest flight, very gentle descent
-5     | 3.0             | Straight, gentle glide
-Mean  | 3.0             | 
+| Trial | Flight Time (s) | Observations |
+| :--- | :--- | :--- |
+| 1 | 2.8 | Smooth glide, slight left bank |
+| 2 | 3.2 | Straight and stable, good lift |
+| 3 | 2.5 | Nosed up slightly, stalled and recovered |
+| 4 | 3.5 | Great lift, longest flight, very gentle descent |
+| 5 | 3.0 | Straight, gentle glide |
+| **Mean** | **3.0** | — |
 
-Mean calculation: (2.8 + 3.2 + 2.5 + 3.5 + 3.0) / 5 = 3.0 s.
+*Mean calculation: (2.8 + 3.2 + 2.5 + 3.5 + 3.0) / 5 = 3.0 s.*
 
-6. Proposed Modifications (Fold-Only)
-Modification 1 — Upward-Bent Wingtips (Elevons)
-- Change: Fold the outer trailing edge of each wing upward by approximately 5 mm.
-- Hypothesis: This acts as an elevon, pitching the nose up slightly. If the plane was diving, this will increase airtime. If overdone, it will stall.
-- Test Plan: Fold a fresh identical plane. Conduct 5 trials flat, then bend tips up 5mm and conduct 5 trials. Compare means.
+## 6. Proposed Modifications (Fold-Only)
 
-Modification 2 — Extra Nose Fold (CG Shift)
-- Change: Fold the very tip of the nose over one more time (about 1 cm) to add weight to the front.
-- Hypothesis: Moving the CG forward increases pitch stability and prevents the plane from stalling at the peak of the launch.
-- Test Plan: Fold a fresh identical plane. Conduct 5 trials without the extra fold, then add the fold and conduct 5 trials. Compare means.
+**Modification 1 — Upward-Bent Wingtips (Elevons)**
+* **Change:** Fold the outer trailing edge of each wing upward by approximately 5 mm.
+* **Hypothesis:** This acts as an elevon, pitching the nose up slightly. If the plane was diving, this will increase airtime. If overdone, it will stall.
+* **Test Plan:** Fold a fresh identical plane. Conduct 5 trials flat, then bend tips up 5mm and conduct 5 trials. Compare means.
 
-7. Bonus — Comparison with a Second Design
-Measurement             | Design A (Lock-Fold Glider) | Design B (Classic Dart)
-Mass (g)                | ~5                          | ~5
-Wingspan (cm)           | 21.4                        | 11.0 (est)
-Wing chord (cm)         | 6.0                         | 6.5 (est)
-Wing area (cm2)         | 128.4                       | 71.5 (est)
-Wing loading (kg/m2)    | 0.389                       | 0.699 (est)
-Mean flight time (s)    | 3.0                         | 1.72
+**Modification 2 — Extra Nose Fold (CG Shift)**
+* **Change:** Fold the very tip of the nose over one more time (about 1 cm) to add weight to the front.
+* **Hypothesis:** Moving the CG forward increases pitch stability and prevents the plane from stalling at the peak of the launch.
+* **Test Plan:** Fold a fresh identical plane. Conduct 5 trials without the extra fold, then add the fold and conduct 5 trials. Compare means.
 
-Discussion: The design with the lower wing loading (Design A) is expected to glide more slowly and stay aloft longer. The measured results agree with this expectation. The Lock-Fold Glider achieved a mean of 3.0 seconds compared to the Dart's 1.72 seconds because its larger wing area reduced the sink rate, allowing it to float longer.
+## 7. Bonus — Comparison with a Second Design
 
-8. Conclusion
-The original Lock-Fold Glider achieved a mean flight time of 3.0 s over five trials, with an estimated wing loading of 0.389 kg/m2. The heavy, locked nose design effectively kept the CG forward, resulting in stable, stall-free glides. Two fold-based modifications—upward wingtips and an extra nose fold—were proposed with controlled test plans. The bonus comparison demonstrated that the Lock-Fold Glider performed significantly better for duration than the Classic Dart. The exercise successfully demonstrates that wing area, wing loading, and CG placement are the primary drivers of a paper plane's airborne duration.
+| Measurement | Design A (Lock-Fold Glider) | Design B (Classic Dart) |
+| :--- | :--- | :--- |
+| Mass (g) | ~5 | ~5 |
+| Wingspan (cm) | 21.4 | 11.0 (est) |
+| Wing chord (cm) | 6.0 | 6.5 (est) |
+| Wing area (cm²) | 128.4 | 71.5 (est) |
+| Wing loading (kg/m²) | 0.389 | 0.699 (est) |
+| Mean flight time (s) | 3.0 | 1.72 |
 
-9. References
+**Discussion:** The design with the lower wing loading (Design A) is expected to glide more slowly and stay aloft longer. The measured results agree with this expectation. The Lock-Fold Glider achieved a mean of 3.0 seconds compared to the Dart's 1.72 seconds because its larger wing area reduced the sink rate, allowing it to float longer.
+
+## 8. Conclusion
+The original Lock-Fold Glider achieved a mean flight time of 3.0 s over five trials, with an estimated wing loading of 0.389 kg/m². The heavy, locked nose design effectively kept the CG forward, resulting in stable, stall-free glides. Two fold-based modifications—upward wingtips and an extra nose fold—were proposed with controlled test plans. The bonus comparison demonstrated that the Lock-Fold Glider performed significantly better for duration than the Classic Dart. The exercise successfully demonstrates that wing area, wing loading, and CG placement are the primary drivers of a paper plane's airborne duration.
+
+## 9. References
 1. Project X 3.0 — Problem 2 assignment. https://github.com/the-robotronics-club/Project-X-Selection-Tasks
-2. Anderson, J. D. Introduction to Flight, 8th ed., McGraw-Hill.
+2. Anderson, J. D. *Introduction to Flight*, 8th ed., McGraw-Hill.
 
-Appendix: Construction photos attached. Video submission pending upload due to technical issue.
+## Appendix: Construction Photos & Video
+
+
+
+### Flight Video
+[Click here to watch the flight video](YOUR_VIDEO_LINK_HERE)
+Here , these are the photos of our plane
+<img width="4032" height="3024" alt="20261026_224124" src="https://github.com/user-attachments/assets/cee29003-3cdd-49ce-85ca-3bbcb8d28677" />
+<img width="4032" height="3024" alt="20261026_224028" src="https://github.com/user-attachments/assets/f6b0ef8a-317b-478e-8ea4-354d3c32ee9b" />
+<img width="3024" height="4032" alt="20261026_223928" src="https://github.com/user-attachments/assets/83e926a3-6f53-43ad-a018-a3851ad79f1d" />
+<img width="3024" height="4032" alt="20261026_223851" src="https://github.com/user-attachments/assets/48533620-5840-4b4d-b401-72454faf2453" />
+
+Here are few videos of in indoor space
+
+https://drive.google.com/file/d/19w8oH7CVB5zylVmU327oR-AJA2X3x-Oj/view?usp=sharing
+https://drive.google.com/file/d/1u7nZjMRo8PAr7XIZQDUWWsu1gL--dEWR/view?usp=sharing
+
+
